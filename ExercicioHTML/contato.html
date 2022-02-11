@@ -24,17 +24,17 @@
         <div>
             <form class="fm">
                 <label class="wcd" for="nome">Nome:</label> 
-                <input class="brwp" type="text" id="nome" placeholder="Informe o seu Nome" >
-                <br>
+                <input class="brwp" type="text" id="nome" onkeyup="validaNome()"  placeholder="Informe o seu Nome" >
+                <div id="txtNome"></div>
                 <br>
                 <label class="wcd" for="email">E-mail:</label>
-                <input class="brwp" type="email" id="email" placeholder="Informe o seu Email" >
-                <br>
+                <input class="brwp" type="email" id="email" onkeyup="validaEmail()" placeholder="Informe o seu Email" >
+                <div id="txtEmail"></div>
                 <br>
                 <label class="wcd" for="assunto">Assunto:</label>
-                <textarea name="assunto" id="assunto" cols="41" rows="7" placeholder="Informe um comentario"></textarea>
-                <br>
-                <button class="btn">Enviar</button>
+                <textarea name="assunto" id="assunto" cols="41" rows="7" onkeyup="validaAssunto()"" placeholder="Informe um comentario"></textarea>
+                <div id="txtAssunto"></div>
+                <button class="btn" onclick="enviar()">Enviar</button>
             </form>
         </div>
 
@@ -43,7 +43,7 @@
             <p>R. Gonçalo Francisco Xavier, 36</p>
             <p>São Paulo - SP</p>
         
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14638.127287130066!2d-46.71997214612083!3d-23.47734647611647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef96e0b00b627%3A0xaac6d292d4612afa!2sR.%20Gon%C3%A7alo%20Francisco%20Xavier%2C%2036%20-%20Pirituba%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002942-060!5e0!3m2!1spt-BR!2sbr!4v1644443675928!5m2!1spt-BR!2sbr" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14638.127287130066!2d-46.71997214612083!3d-23.47734647611647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef96e0b00b627%3A0xaac6d292d4612afa!2sR.%20Gon%C3%A7alo%20Francisco%20Xavier%2C%2036%20-%20Pirituba%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002942-060!5e0!3m2!1spt-BR!2sbr!4v1644443675928!5m2!1spt-BR!2sbr" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"></iframe>
         </div>
 
     </div>
@@ -73,5 +73,6 @@
         </p>
     </footer>
   
+<script src="assets/js/script.js"></script>
 </body>
 </html>
