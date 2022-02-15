@@ -1,0 +1,12 @@
+.tm-social {
+    width: 30px;
+    height: 30px;
+  }
+  .img-teste{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 3rem;
+  }
+

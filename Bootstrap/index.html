@@ -11,20 +11,15 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <!--CSS-->
-  <STYle>
-    .tm-social {
-      width: 30px;
-      height: 30px;
-    }
-  </STYle>
+  <link rel="stylesheet" href="assets/css/style.css">
 
-  <title>Nyck!</title>
+  <title>Seleção Basileira</title>
 </head>
 
 <body>
   <!--NavBar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="https://www.linkedin.com/in/nycolas-couto-26a812188/">Nyck</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <a class="navbar-brand" href="#">Futebol</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
       aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
@@ -33,27 +28,27 @@
     <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(página atual)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contato</a>
+          <a class="nav-link text-light" href="#">Contato</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Dropdown
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Redes Sociais
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Ação</a>
-            <a class="dropdown-item" href="#">Outra ação</a>
+            <a class="dropdown-item" href="https://www.instagram.com/nyckkk1/">Instagram</a>
+            <a class="dropdown-item" href="https://github.com/Nyckk1">GitHub</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Algo mais aqui</a>
+            <a class="dropdown-item" href="https://www.linkedin.com/in/nycolas-couto-26a812188/">Linkedin</a>
           </div>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
       </form>
     </div>
   </nav>
@@ -63,13 +58,16 @@
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=Primeiro Slide" alt="Primeiro Slide">
+        <img class="d-block w-100" src="assets/img/selecao-1958.jpg" alt="Seleção Brasileira de 1958" width="600px"
+          height="750px">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide" alt="Segundo Slide">
+        <img class="d-block w-100" src=" assets/img/selecao-1994.jpg" alt="Seleção Brasileira de 1994" width="600px"
+          height="750px">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Terceiro Slide" alt="Terceiro Slide">
+        <img class="d-block w-100" src="assets/img/selecao-2002.jpg" alt="Seleção Brasileira de 2002" width="600px"
+          height="750px">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -86,8 +84,8 @@
   <!--Jumbtron-->
   <div class="jumbotron jumbotron-fluid bg-light">
     <div class="container">
-      <h1 class="display-4">Titulo Teste</h1>
-      <p class="lead">Este é um jumbotron modificado que ocupa todo o espaço horizontal de seu elemento pai.</p>
+      <h1 class="display-4">Conquistas</h1>
+      <p class="lead">Os titulos mais importantes da Seleção mais vitoriosa do mundo.</p>
     </div>
   </div>
   <!--/Jumbtron-->
@@ -96,93 +94,112 @@
   <div class="container">
     <div class="card-columns">
       <div class="card">
-        <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
+        <img class="card-img-top" src="assets/img/campeao.jpg" alt="Primeiro Titulo mundial">
         <div class="card-body">
-          <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
-          <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a
-            um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+          <h5 class="card-title">O primeiro título mundial</h5>
+          <p class="card-text">Durante 1958 e 1970 o Brasil viveu uma de suas melhores fases: foram três títulos em
+            quatro Copas, com um time de estrelas que praticamente correspondia aos times do Botafogo e do Santos. Os
+            principais craques eram Pelé, Vavá e Garrincha.</p>
         </div>
       </div>
-      <div class="card p-3">
-        <blockquote class="blockquote mb-0 card-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-          <footer class="blockquote-footer">
-            <small class="text-muted">
-              Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
-            </small>
-          </footer>
-        </blockquote>
-      </div>
+
       <div class="card">
-        <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
+        <img class="card-img-top" src="assets/img/tetracampeao.jpeg" alt="Tetracampeonato">
+
         <div class="card-body">
-          <h5 class="card-title">Título do card</h5>
-          <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um
-            conteúdo adicional.</p>
+          <h5 class="card-title">Tetracampeonato</h5>
+          <p class="card-text">Em 1994, o Brasil não era tido como favorito. Um ano antes, nas eliminatórias, havia se
+            classificado no sufoco, graças à ajuda de Romário, que foi até apelidado de São Romário. Já na Copa
+            disputada nos Estados Unidos, o time de Carlos Alberto Parreira era considerado defensivo demais, o que
+            contrariava o estilo do futebol brasileiro. No decorrer da competição, entretanto, o Brasil foi
+            ultrapassando barreiras e se classificando para as fases seguintes.</p>
+          <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+        </div>
+
+      </div>
+
+      <div class="card">
+        <img class="card-img-top" src="assets/img/Bicampeao.jpg" alt="Bicampeonato">
+        <div class="card-body">
+          <h5 class="card-title">Bicampeonato</h5>
+          <p class="card-text">Na Copa do Mundo FIFA de 1962, o Brasil conseguiu seu segundo título com Garrincha e Vavá
+            como as grandes estrelas. Garrincha fez gols de cabeça e também de perna esquerda e ainda jogou com febre a
+            final, especialmente após Pelé ter se machucado no segundo jogo e estar impossibilitado de jogar pelo resto
+            da Copa do Mundo.</p>
           <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
         </div>
       </div>
-      <div class="card bg-primary text-white text-center p-3">
-        <blockquote class="blockquote mb-0">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-          <footer class="blockquote-footer">
-            <small>
-              Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
-            </small>
-          </footer>
-        </blockquote>
-      </div>
-      <div class="card text-center">
+
+      <div class="card">
+        <img class="card-img-top" src="assets/img/pentacampeao.jpg" alt="Pentacampeonato">
         <div class="card-body">
-          <h5 class="card-title">Título do card</h5>
-          <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um
-            conteúdo adicional.</p>
+          <h5 class="card-title">Pentacampeonato</h5>
+          <p class="card-text">Na Copa do Mundo de 2002, Ronaldo foi novamente convocado, apesar das dúvidas se
+            realmente tinha condições de jogar, pois estava parado há praticamente dois anos, por problemas de contusão.
+            Porém, na Copa, teve grandes atuações. O Brasil, que eliminou as seleções da Bélgica, Inglaterra, Turquia e
+            Alemanha, esta última na final, acabou tendo Ronaldo como o artilheiro, com oito gols, sendo assim um dos
+            grandes nomes da conquista juntamente com Rivaldo, tendo assim conquistado o quinto título para a Seleção
+            Brasileira, vencendo todas as partidas do mundial de 2002 e mantendo sua hegemonia.</p>
           <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
         </div>
       </div>
-      <div class="card">
-        <img class="card-img" src=".../100px260/" alt="Imagem do card">
-      </div>
-      <div class="card p-3 text-right">
-        <blockquote class="blockquote mb-0">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-          <footer class="blockquote-footer">
-            <small class="text-muted">
-              Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
-            </small>
-          </footer>
-        </blockquote>
-      </div>
-      <div class="card">
+
+      <div class="card ">
+        <img class="card-img" src="assets/img/TriCampeao.jpg" alt="Tricampeonato">
         <div class="card-body">
-          <h5 class="card-title">Título do card</h5>
-          <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um
-            conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em
-            ação.</p>
+          <h5 class="card-title">Tricampeonato</h5>
+          <p class="card-text">Após o fracasso na Copa do Mundo FIFA de 1966, a Seleção brasileira voltou a participar
+            de eliminatórias para o torneio de 1970. Disputou uma das três vagas do continente sul-americano contra as
+            Seleções da Colômbia, Venezuela e Paraguai que completavam o grupo B da América do Sul. A participação do
+            Brasil foi irretocável, sob o comando do treinador João Saldanha, venceu todos os adversários em ambas as
+            partidas (jogos de ida e volta), marcando 23 gols e sofrendo apenas dois.</p>
           <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
         </div>
       </div>
+
+      <div class="card">
+        <img class="card-img" src="assets/img/Ouro-Olimpico.jpg" alt="Primeiro Ouro Olimpico">
+        <div class="card-body">
+          <h5 class="card-title">Primeiro Titulo Olimpico</h5>
+          <p class="card-text">Após 64 anos de espera, em 20 de agosto de 2016, diante de um Maracanã lotado, que a
+            Seleção Brasileira conquistou pela primeira vez a medalha de ouro no futebol dos Jogos Olímpicos. O triunfo
+            na Rio 2016 veio após um empate por 1 a 1 com a Alemanha no tempo regulamentar. Na disputa por pênaltis, o
+            título veio na quinta bola chutada por Neymar, após o goleiro Weverton ter defendido o penalti cobrado pelo
+            jogador alemão.</p>
+
+          <p>O artilheiro do Brasil nos Jogos Olímpicos de 2016 foi Neymar, com quatro gols. Ele marcou em todas as
+            partidas do mata-mata e foi dele o gol que colocou a Seleção na dianteira do placar na final. Também
+            balançaram as redes ao longo da campanha Gabriel Barbosa, Gabriel Jesus, Luan e Marquinhos.</p>
+          <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+        </div>
+      </div>
+
     </div>
+
     <!--/Cards-->
 
     <!--Texto e Video-->
 
-    <div class="row mt-5 mb-5">
+    <div class="row mt-5 mb-5 ">
       <div class="col-md-6">
-        <h3>Texto Teste</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, iusto consequuntur. Facere ab quam sunt, quas
-          molestiae laudantium illum tempora sapiente in beatae similique. Beatae quod eum fuga quidem veritatis.
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi neque cumque porro quia, unde minus sequi
-          atque? Molestias, deserunt aspernatur. At dolores fuga quos nulla temporibus voluptatem debitis corrupti est!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam. Ex animi adipisci sapiente? Id nobis
-          esse rem harum amet pariatur molestiae, quas consequatur, non porro numquam dolorem quod corrupti?</p>
+        <h3>Futebol Arte</h3>
+        <p>
+          A grande habilidade com os pés pode ser devido à miscigenação e ao ritmo associados à capoeira e ao samba,
+          caracterizados pelos movimentos dos pés para dançar ou para brincar com o ritmo dos tambores africanos.
+          Acredita-se que este estilo tenha sido desenvolvido em bairros pobres habitados por pessoas de ascendência
+          africana.
+
+        <p> A chamada "escola brasileira de futebol" é conhecida pela criatividade, fluidez e estilo ofensivo de jogo.
+          Por exemplo, driblar é uma parte essencial do seu estilo. A seleção brasileira é temida pelo mundo todo, por
+          ter seu jogo extremamente ofensivo, habilidoso e alegre.</p>
+
+        <p>Ao lado temos 100 gols incriveis de jogadores que passaram pela seleção brasileira e utilizaram da "alegria
+          nos pés" para marcar gols Inesquecíveis. </p>
       </div>
 
       <div class="col-md-6">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/99hd6huUnbA" title="YouTube video player"
-          frameborder="0"
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NVy8ZormlXA?controls=0"
+          title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
@@ -192,74 +209,93 @@
 
     <!--Formulário de contato-->
 
+    <div class="row mb-5">
+      <div class="col-md-6">
+        <h3 class="text-center">Entre em contato comigo</h3>
+
+        <form class="row g-3 needs-validation mt-3 " novalidate>
+          <div class="col-md-6 ">
+            <label for="validationCustom01" class=" form-label">Nome</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="Digite o seu nome" required>
+            <div class="valid-feedback">
+              OK!
+            </div>
+          </div>
+
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-6">
+              <label for="validationCustom01" class="form-label">Email</label>
+              <input type="email" class="form-control" id="validationCustom01" placeholder="Digite o seu email"
+                required>
+              <div class="valid-feedback">
+                OK!
+              </div>
+            </div>
+
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-12 ">
+                <label for="validationCustom01" class="form-label mt-2">Mensagem</label>
+                <textarea class="form-control" id="validationCustom01" rows="3" placeholder="Digite aqui a sua mensagem"
+                  required></textarea>
+                <div class="valid-feedback">
+                  OK!
+                </div>
+              </div>
+
+              <div class="col-12 mt-3 d-flex justify-content-end">
+                <button class="btn btn-outline-dark" type="submit">Enviar</button>
+              </div>
+            </form>
+      </div>
+
+      <div class="col-md-6">
+        <iframe class="w-100"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14638.127287130066!2d-46.71997214612083!3d-23.47734647611647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef96e0b00b627%3A0xaac6d292d4612afa!2sR.%20Gon%C3%A7alo%20Francisco%20Xavier%2C%2036%20-%20Pirituba%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002942-060!5e0!3m2!1spt-BR!2sbr!4v1644443675928!5m2!1spt-BR!2sbr"
+          width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()"
+          onmouseout="mapaNormal()" id="mapa"></iframe>
+      </div>
+    </div>
+
+  </div>
+
+  <!--/Formulário de contato-->
+
+  <!--Rodapé-->
+  <hr>
+  <footer>
+
+    <div class="row mb-3">
+      <div class="col-md-12 d-flex justify-content-center">
+
+        <a href="https://www.facebook.com/profile.php?id=100004451808856" target="_blank" class="p-2">
+          <img class="tm-social" src="assets/img/facebook.png" alt="Logo do Facebook">
+        </a>
+
+        <a href="https://www.instagram.com/nyckkk1/" target="_blank" class="p-2">
+          <img class="tm-social " src="assets/img/instagram.png" alt="Logo do Instagram">
+        </a>
+
+        <a href="https://www.linkedin.com/in/nycolas-couto-26a812188/" target="_blank" class="p-2">
+          <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+        </a>
+
+        <a href="https://github.com/Nyckk1" target="_blank" class="p-2">
+          <img class="tm-social" src="assets/img/github.png" alt="Logo do GitHub">
+        </a>
+
+      </div>
+    </div>
+
     <div class="row">
       <div class="col-md-12">
-        <h4 class="text-center">
-          Entre em contato com a gente
-        </h4>
+        <p class="text-center">
+          Todos os direitos reservados: Nycolas Mendes &copy;
+        </p>
       </div>
     </div>
 
-    <div class="row d-flex align-items-center">
-      <div class="col-md-6">
-        <form>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Endereço de email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <div class="form-group d-flex justify-content-end">
-            <button class="btn btn-outline-dark">Enviar</button>
-          </div>
-        </form>
-      </div>
-
-      <div class="col-md-6">
-        <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14638.127287130066!2d-46.71997214612083!3d-23.47734647611647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef96e0b00b627%3A0xaac6d292d4612afa!2sR.%20Gon%C3%A7alo%20Francisco%20Xavier%2C%2036%20-%20Pirituba%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002942-060!5e0!3m2!1spt-BR!2sbr!4v1644443675928!5m2!1spt-BR!2sbr" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"></iframe>
-      </div>
-    </div>
-
-    <!--/Formulário de contato-->
-
-    <!--Rodapé-->
-    <hr>
-    <footer>
-
-      <div class="row mb-3">
-        <div class="col-md-12 d-flex justify-content-center">
-
-          <a href="https://www.facebook.com/profile.php?id=100004451808856" target="_blank" class="p-2">
-            <img class="tm-social" src="assets/img/facebook.png" alt="Logo do Facebook">
-          </a>
-
-          <a href="https://www.instagram.com/nyckkk1/" target="_blank" class="p-2">
-            <img class="tm-social " src="assets/img/instagram.png" alt="Logo do Instagram">
-          </a>
-
-          <a href="https://www.linkedin.com/in/nycolas-couto-26a812188/" target="_blank" class="p-2">
-            <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin">
-          </a>
-
-          <a href="https://github.com/Nyckk1" target="_blank" class="p-2">
-            <img class="tm-social" src="assets/img/github.png" alt="Logo do GitHub">
-          </a>
-
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12">
-          <p class="text-center">
-            Todos os direitos reservados: Nycolas Mendes &copy;
-          </p>
-        </div>
-      </div>
-
-    </footer>
-    <!--/Rodapé-->
+  </footer>
+  <!--/Rodapé-->
 
   </div>
 
@@ -273,5 +309,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+  <script src="assets/js/main.js"></script>
 </body>
+
 </html>
